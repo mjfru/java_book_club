@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.page-container {
+	width: 60%;
+	margin: 0px auto;
+	display:flex;
+	flex-direction: column;
+}
+
+.header {
+	padding: 20px;
+	background-color: #5d70c9;
+	color: ghostwhite;
+}
+
+h1 {
+	font-family: 'Homemade Apple', cursive;
+}
+
+.header-line {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content-container {
+	margin-top: 20px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+.name {
+	font-family: 'Homemade Apple', cursive;
+	color:mediumspringgreen;
+}
+
+.book {
+	font-family: 'Homemade Apple', cursive;
+	color:orangered;
+	font-style: italic;
+}
+
+.author {
+	font-family: 'Homemade Apple', cursive;
+	color: mediumslateblue;
+}
+
+.buttons {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#edit-btn {
+	margin-right: 20px;
+	width: 100px;
+}
+
+#delete-btn {
+	width: 100px;
+}

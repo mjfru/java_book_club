@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.header {
+	padding: 20px;
+	background-color: #5d70c9;
+	color: ghostwhite;
+}
+
+.header-line {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Architects Daughter', cursive;
+}
+
+span {
+	font-family: 'Homemade Apple', cursive;
+}
+
+.page-container {
+	margin: 0px auto;
+	width: 50%;
+}
+
+.form-container {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+}
+
+.form {
+	width: 50%;
+	border: 4px solid  #5d70c9;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+label {
+	width: 30%;
+}
+
+input {
+	margin-bottom: 5px;
+	width: 50%;
+}
+
+#submit-btn {
+	width: 30%;
+}
+
+.errors {
+	color: crimson;
+}
+
