@@ -37,7 +37,7 @@ public class UserService {
 		
 		// Reject if passwords do not match...
 		if(!newUser.getPassword().equals(newUser.getConfirmPass())) {
-			result.rejectValue("confirm", "Matches", "Passwords do not match. Please try again.");
+			result.rejectValue("confirmPass", "Matches", "Passwords do not match. Please try again.");
 		}
 		
 		// If this process has any errors, return null...
